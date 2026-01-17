@@ -1,6 +1,6 @@
 // ====== CONFIG ======
-const FLOW_GET_URL = "PASTE_YOUR_FLOW_A_GET_URL_HERE"; // your GET flow
-const FLOW_POST_URL = "PASTE_YOUR_FLOW_B_POST_URL_HERE"; // we'll add in Flow B
+const FLOW_GET_URL = "https://9f48aec3eda0e4b1bfc9a32779c7c8.4a.environment.api.powerplatform.com/powerautomate/automations/direct/workflows/f6e6dde5110e40d4b269c2d4a954b82c/triggers/manual/paths/invoke/survey?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=KmgLO3Qspxo-l45H8BnXe6mj-ags27IOYXhA41NQxcQ"; // your GET flow
+const FLOW_POST_URL = "https://9f48aec3eda0e4b1bfc9a32779c7c8.4a.environment.api.powerplatform.com/powerautomate/automations/direct/workflows/a128a9d378bb429bb93a422e2529f7e3/triggers/manual/paths/invoke/submit?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=QRr_Swy0AV8z7exa2wSkB9zL7Mf8tIxWFbPeaNn_8Pg"; // we'll add in Flow B
 // Optional: pass a surveyId in the email link like: ?surveyId=abc123
 // ====== END CONFIG ======
 
