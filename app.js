@@ -64,7 +64,7 @@ async function postResponse(payload) {
       await postResponse(payload);
     });
 
-    Survey.SurveyNG.render("surveyContainer", { model: survey });
+    survey.render("surveyContainer");
     setStatus("");
   } catch (e) {
     console.error(e);
