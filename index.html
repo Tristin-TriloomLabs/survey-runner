@@ -1,1 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Survey</title>
+
+  <!-- SurveyJS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/survey-core/defaultV2.min.css" />
+  <style>
+    body{font-family:Segoe UI, Arial, sans-serif; margin:0; padding:16px; background:#f7f7f7;}
+    #app{max-width:900px; margin:0 auto; background:#fff; padding:18px; border-radius:12px;}
+    .top{display:flex; gap:12px; align-items:center; justify-content:space-between; margin-bottom:12px;}
+    .muted{color:#666; font-size:12px}
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="top">
+      <div>
+        <div class="muted" id="surveyTitle">Loading survey…</div>
+        <div class="muted" id="status"></div>
+      </div>
+    </div>
+    <div id="surveyContainer"></div>
+  </div>
+
+  <!-- SurveyJS runtime -->
+  <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+  <script src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+
+  <script src="./app.js"></script>
+</body>
+</html>
 
